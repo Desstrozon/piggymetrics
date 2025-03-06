@@ -20,7 +20,7 @@ jobs:
 
       - name: maven build, clean
         run: |
-          mvn clean package -Dskitptests
+          mvn clean package -DskitpTests
 
       - name: Login via Azure CLI
         uses: azure/login@v1
